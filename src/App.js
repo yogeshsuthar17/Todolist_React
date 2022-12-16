@@ -35,7 +35,7 @@ class App extends React.Component
   {
     
     const isvalid = this.formvalid()
-    if(isvalid)
+    if(!isvalid)
     {
     
     let list = this.state.arr
